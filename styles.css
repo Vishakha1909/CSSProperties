@@ -14,6 +14,32 @@
     margin-right: 300px;
     margin-left: 5px;
 }
+.relative {
+    display: block;
+    position: relative;
+    border-style: solid;
+    border-color: blue;
+    background-color: cyan;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    font-size: 20px;
+    bottom: 25%;
+    margin-left: auto;
+}
+
+.absolute {
+    display: block;
+    border-style: solid;
+    position: absolute;
+    border-color: blue;
+    background-color: cyan;
+    font-size: 20px;
+    bottom: 35%;
+    margin-right: 300px;
+    margin-left: 5px;
+
+}
 
 p {
     display: block;
@@ -34,6 +60,8 @@ span {
 }
 
 img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    position: absolute;
 }
