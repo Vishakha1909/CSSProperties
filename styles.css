@@ -1,0 +1,39 @@
+.mid {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.fixed {
+    display: block;
+    border-style: solid;
+    position: fixed;
+    border-color: blue;
+    background-color: cyan;
+    font-size: 20px;
+    bottom: 25%;
+    margin-right: 300px;
+    margin-left: 5px;
+}
+
+p {
+    display: block;
+    border-style: solid;
+    border-color: blue;
+    background-color: cyan;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    font-size: 20px;
+    bottom: 25%;
+    margin-left: auto;
+}
+
+
+span {
+    background-color: red;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
